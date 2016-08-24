@@ -53,6 +53,10 @@
             }
             return true;
         }
+
+        function fnSetup() {
+            location.href = "http://ferpstorages.blob.core.windows.net/ferp/setup.exe"
+        }
     </script>
 </head>
 <body>
@@ -81,6 +85,8 @@
         </div>
         <div class="ui fluid large teal submit button" onclick="if(!fnLogin()) return;">Login</div>
         <div style="display:none;"><button id="btnLogin" runat="server" onserverclick="btnLogin_Click"></button></div>
+        <div class="ui divider"></div>
+        <div class="ui fluid orange button" onclick="fnSetup()">ERP Setup</div>
       </div>
 
       <div class="ui error message"></div>
