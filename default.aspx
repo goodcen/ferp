@@ -55,7 +55,7 @@
         }
 
         function fnSetup() {
-            location.href = "http://ferpstorages.blob.core.windows.net/ferp/setup.exe"
+            location.href = "http://ferpstorage.blob.core.windows.net/ferp/setup.exe"
         }
     </script>
 </head>
