@@ -8,7 +8,7 @@
     <meta http-equiv="Content-Script-Type" content="text/javascript" />
     <meta http-equiv="Content-Style-Type" content="text/css" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
     <title></title>
     
     <link rel="stylesheet" type="text/css" href="semantic/dist/semantic.min.css" />
@@ -18,13 +18,14 @@
             text-decoration:none;
         }
         .wrap {
-            width:500px;
+            width:100%;
+            max-width:500px;
             margin:20px;
         }
 
         .table.ui thead th { text-align:center; }
 
-        .upload { width:400px; height:34px; }
+        .upload { width:85%; max-width:400px; height:34px; }
     </style>
 
     <script type="text/javascript" src="js/jquery-3.1.0.min.js"></script>
